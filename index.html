@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Refresh You</h1>
+
+      <div class="dice">
+        <p id="prom1">Player 1: </p> " 
+        <form id="form" onsubmit="cchangeInnerHTML(); return false;">
+          <input type="text" id="input1">
+          <input type="submit" value="Submit">
+        </form>
+        <div id="output"></div>
+        <img class="img1" src="images/dice6.png">
+        <br>
+        <button id="btn1">roll</button>
+      </div>
+      <div class="dice">
+        <p id="prom2">Player 2: </p> " 
+        <form id="form1" onsubmit="changeInnerHTML(); return false;">
+          <input type="text" id="input2">
+          <input type="submit" value="Submit">
+        </form>
+        <img class="img2" src="images/dice6.png">
+        <br>
+        <button id="btn2">roll</button>
+      </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+
+      </body>
+
+      <footer>
+        www 🎲 joecode 🎲 io
+      </footer>
+    </html>
